@@ -1,4 +1,4 @@
-Swaggy Bastard Theme for Ghost
+#Swaggy Bastard Theme for Ghost
 ==================
 
 A free boilerplate responsive theme for [Ghost](https://ghost.org) blogging platform.
@@ -49,3 +49,6 @@ Bastard theme uses Grunt to lint, compile, and concatenate the javascript and [S
 ## License
 
 MIT License
+=======
+# agh-web-page
+Pagina web creada con ghost
