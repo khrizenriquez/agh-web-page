@@ -1,5 +1,7 @@
 #Swaggy Bastard Theme for Ghost
 
+Page version: v.0.1.1
+
 A custom page [Asociación Guatemalteca de Hemofilia](http://www.asociacionhemofiliaguatemala.com/)
 
 Swaggy Bastard is a fork of <a href="https://github.com/karloespiritu/Bastard">Bastard!</a>
