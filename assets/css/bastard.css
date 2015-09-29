@@ -3452,8 +3452,31 @@ h1.post-title { color: #005B9A; }
 .btn-social { display: inline-block; width: 48px; height: 48px; border: 1px solid white; border-radius: 100%; text-align: center; font-size: 24px; line-height: 46px; }
 
 /* ========================================================================== 12. Slider Menu ========================================================================== */
-.site-nav-logo { position: fixed; left: 10px; top: 10px; width: 45px; height: 45px; background-color: rgba(255, 255,255, 0.6); border-radius: .5em; overflow: hidden; z-index: 99; }
-.site-nav-logo .logo { display: block; position: absolute; top: 5px; left: 5px; width: 35px; height: 35px; border-radius: 100%; background-size: cover; background-repeat: no-repeat; }
+.site-nav-logo { position: fixed; left: 10px; top: 10px; width: 45px; height: 45px; border-radius: .5em; overflow: hidden; z-index: 99; transition: all 0.25s ease; }
+.site-nav-logo:hover {
+  background-color: white;
+  transition: all 0.25s ease;
+}
+.site-nav-logo .logo { 
+  display: block; 
+  position: absolute; 
+  top: 5px; 
+  left: 5px; 
+  width: 35px; 
+  height: 35px; 
+  border-radius: 100%; 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+}
+.site-nav-logo .menu-logo {
+  color: black;
+  display: block;
+  font-size: 2.5em;
+  margin: 0 auto;
+  position: absolute;
+  right: 9%;
+  top: 12%;
+}
 
 #slidemenu-wrapper { margin-left: -250px; left: 0; width: 250px; background: #FFFFFF; position: fixed; height: 100%; overflow-y: auto; z-index: 1000; -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -ms-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s; }
 #slidemenu-wrapper a { color: #828282; }
